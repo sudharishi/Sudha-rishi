@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SR FASHION HUB</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: white;
+        }
+
+        /* Header */
+        header {
+            background-color: #000;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid gold;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+            color: gold;
+            letter-spacing: 3px;
+        }
+
+        /* Navbar */
+        nav {
+            background-color: #111;
+            display: flex;
+            justify-content: center;
+            padding: 14px 0;
+            border-bottom: 1px solid gold;
+        }
+
+        nav a {
+            color: gold;
+            text-decoration: none;
+            margin: 0 25px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .hero h2 {
+            font-size: 30px;
+            color: gold;
+        }
+
+        .hero p {
+            color: #ddd;
+            font-size: 18px;
+        }
+
+        /* Category Grid */
+        .categories {
+            padding: 20px;
+        }
+
+        .categories h2 {
+            text-align: center;
+            color: gold;
+            font-size: 26px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .box {
+            background-color: #111;
+            padding: 25px;
+            text-align: center;
+            border: 2px solid gold;
+            color: white;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .box:hover {
+            background-color: gold;
+            color: black;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 40px 20px;
+            text-align: center;
+            border-top: 2px solid gold;
+            margin-top: 30px;
+        }
+
+        .contact h2 {
+            color: gold;
+            font-size: 26px;
+        }
+
+        .contact p {
+            font-size: 18px;
+            color: #ddd;
+        }
+
+        /* About Section */
+        .about {
+            padding: 40px 20px;
+            text-align: center;
+            border-top: 2px solid gold;
+        }
+
+        .about h2 {
+            font-size: 26px;
+            color: gold;
+        }
+
+        .about p {
+            font-size: 18px;
+            color: #ccc;
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #000;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+            color: gold;
+            border-top: 2px solid gold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>SR FASHION HUB</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home" class="hero">
+        <h2>Welcome to SR FASHION HUB</h2>
+        <p>All fashion products available — Best quality, Best price!</p>
+    </section>
+
+    <section id="products" class="categories">
+        <h2>Our Categories</h2>
+
+        <div class="grid">
+            <div class="box">Men's Fashion</div>
+            <div class="box">Women's Fashion</div>
+            <div class="box">Kids Wear</div>
+            <div class="box">Electronics</div>
+            <div class="box">Home & Kitchen</div>
+            <div class="box">Accessories</div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>
+            SR FASHION HUB is created and managed by partners <b>Sudarshan</b> and <b>Rishi</b>.  
+            We provide the best fashion products, top quality items, and trusted online shopping.  
+            Our mission is to deliver premium products at the best price.
+        </p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p><b>Phone:</b> 9966016696</p>
+        <p><b>Email:</b> srfashionhub99@gmail.com</p>
+        <p><b>Instagram:</b> @srfashionhub_sr</p>
+    </section>
+
+    <footer>
+        © 2025 SR FASHION HUB — All Rights Reserved
+    </footer>
+
+</body>
+</html>
