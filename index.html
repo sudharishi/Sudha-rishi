@@ -51,50 +51,53 @@
 <!-- =======================
         IMAGE SLIDER
 ======================== -->
+<!-- 🔥 Premium Image Slider Start -->
 <div class="slider">
-    <div class="slides fade">
-        <img src="banner1.png" alt="SR Fashion Hub Banner 1">
-    </div>
-
-    <div class="slides fade">
-        <img src="banner2.png" alt="SR Fashion Hub Banner 2">
-    </div>
-
-    <div class="slides fade">
-        <img src="banner3.png" alt="SR Fashion Hub Banner 3">
+    <div class="slides">
+        <img src="slider1.jpg" class="slide">
+        <img src="slider2.jpg" class="slide">
+        <img src="slider3.jpg" class="slide">
+        <img src="slider4.jpg" class="slide">
     </div>
 </div>
+<!-- 🔥 Premium Image Slider End -->
 
 <style>
-/* Slider container */
+/* Slider Box */
 .slider {
     width: 100%;
-    max-height: 380px;
+    height: 230px;
     overflow: hidden;
-    position: relative;
+    border-radius: 12px;
+    margin-top: 20px;
 }
 
-/* Each slide */
+/* Sliding Images */
 .slides {
-    display: none;
+    display: flex;
+    width: 400%;
+    animation: slide 12s infinite;
 }
 
-/* Image style */
-.slides img {
+.slide {
     width: 100%;
-    height: auto;
-    border-radius: 8px;
+    height: 230px;
+    object-fit: cover;
 }
 
-/* Fade Animation */
-.fade {
-    animation-name: fadeEffect;
-    animation-duration: 1.5s;
-}
+/* Slide Animation */
+@keyframes slide {
+    0% { margin-left: 0%; }
+    20% { margin-left: 0%; }
 
-@keyframes fadeEffect {
-    from {opacity: 0.3;}
-    to {opacity: 1;}
+    25% { margin-left: -100%; }
+    45% { margin-left: -100%; }
+
+    50% { margin-left: -200%; }
+    70% { margin-left: -200%; }
+
+    75% { margin-left: -300%; }
+    100% { margin-left: -300%; }
 }
 </style>
 
